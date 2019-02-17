@@ -8,13 +8,31 @@
 		#wrap {width: 1920px;}
 		#wrap>main {height: 1024px; background: url("images/background.jpg")}
 		#scroll {height: 4224px; background: url("images/scroll.jpg");}
+
+		#header {padding: 40px 0 0 60px;}
+		#header>.menu {padding-left: 750px}
+		#header>.playlist {padding-left: 750px}
+
+		#wrap>main>.title {padding:500px 0 0 60px;}
 	</style>
 </head>
 <body>
 <div id="wrap">
-	<main></main>
+	<main>
+		<div id="header">
+			<img src="images/logo.png" class="logo">
+			<img src="images/menu.png" class="menu">
+			<img src="images/playlist.png" class="playlist">
+		</div>
+
+		<img src="images/title.png" class="title">
+	</main>
+
+
 	<div id="scroll"></div>
 </div>
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
