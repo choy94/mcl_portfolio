@@ -6,14 +6,13 @@
 	<style type="text/css">
 		* {margin:0; padding:0; list-style: none;}
 		#wrap {width: 1920px;}
-		#main {height: 1024px; background: url("images/background.jpg")}
+		#wrap>main {height: 1024px; background: url("images/background.jpg")}
 		#scroll {height: 4224px; background: url("images/scroll.jpg");}
 	</style>
 </head>
 <body>
 <div id="wrap">
-	<div id="main">
-	</div>
+	<main></main>
 	<div id="scroll"></div>
 </div>
 
@@ -35,6 +34,17 @@
 			perturbance: 0.04,
 		});
 	})
+
+	// Automatic drops
+	setInterval(function() {
+		var $el = $('main');
+		var x = Math.random() * $el.outerWidth();
+		var y = Math.random() * $el.outerHeight();
+		var dropRadius = 20;
+		var strength = 0.04 + Math.random() * 0.04;
+
+		$el.ripples('drop', x, y, dropRadius, strength);
+	}, 400);
 </script>
 </body>
 </html>
