@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>일렁이는 효과 테스트 01</title>
+	<style type="text/css">
+		* {margin:0; padding:0; list-style: none;}
+		#wrap {width: 1920px;}
+		#main {height: 1024px;}
+		#main>.background {height: 100%; background: url("images/background.jpg");}
+		#scroll {height: 4224px; background: url("images/scroll.jpg");}
+	</style>
+</head>
+<body>
+<div id="wrap">
+	<div id="main">
+		<div class="background"></div>
+	</div>
+	<div id="scroll"></div>
+</div>
+
+<script type="text/javascript" src="jquery.ripples.js"></script>
+
+<script type="text/javascript">
+	$('main').ripples({
+	resolution: 512,
+	dropRadius: 20,
+	perturbance: 0.04,
+});
+</script>
+</body>
+</html>
