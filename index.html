@@ -6,19 +6,19 @@
 	<style type="text/css">
 		* {margin:0; padding:0; list-style: none;}
 		#wrap {width: 1920px;}
-		#wrap>main {height: 1024px; background: url("images/background.jpg")}
+		#main {height: 1024px; background: url("images/background.jpg")}
 		#scroll {height: 4224px; background: url("images/scroll.jpg");}
 
 		#header {padding: 40px 0 0 60px;}
 		#header>.menu {padding-left: 750px}
 		#header>.playlist {padding-left: 750px}
 
-		#wrap>main>.title {padding:500px 0 0 60px;}
+		#main>.title {padding:500px 0 0 60px;}
 	</style>
 </head>
 <body>
 <div id="wrap">
-	<main>
+	<div id="main">
 		<div id="header">
 			<img src="images/logo.png" class="logo">
 			<img src="images/menu.png" class="menu">
@@ -26,7 +26,7 @@
 		</div>
 
 		<img src="images/title.png" class="title">
-	</main>
+	</div>
 
 
 	<div id="scroll"></div>
@@ -46,7 +46,7 @@
 			//perturbance: 0.04,
 			//interactive: false
 		//});
-		$('main').ripples({
+		$('#main').ripples({
 			resolution: 512,
 			dropRadius: 40, //px
 			perturbance: 0.005,
@@ -55,7 +55,7 @@
 
 	// Automatic drops
 	setInterval(function() {
-		var $el = $('main');
+		var $el = $('#main');
 		var x = Math.random() * $el.outerWidth();
 		var y = Math.random() * $el.outerHeight();
 		var dropRadius = 20;
