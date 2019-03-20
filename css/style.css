@@ -6,10 +6,13 @@ body {overflow-x: hidden;}
 #scroll {height: 4225px}
 
 /*헤더*/
-#header {position: fixed; top:24px; z-index: 999;}
+#header {position: fixed; top:24px; z-index: 999; transition: top 0.2s ease-in-out;}
 #header>.logo {position: relative; top:1px; left: 50px}
 #header>.menu {position: relative; top:0; left:831px}
 #header>.playlist {position: relative; top: 5px; left:1621px}
+
+/*헤더 자바스크립트로 숨기는 동작*/
+.nav-up {top: -30px;}
 
 /*타이포와 스크롤다운*/
 #main>.title {position: relative; top:660px; left:59px; z-index:100}
