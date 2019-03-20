@@ -1,20 +1,19 @@
+<!--
+  
+   Copyrightⓒ2018 Night_Planet. All right reserved.
+
+   Desgin by Cholong Mo
+
+-->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>일렁이는 효과 테스트 01</title>
-	<style type="text/css">
-		* {margin:0; padding:0; list-style: none;}
-		#wrap {width: 1920px;}
-		#main {height: 1024px; background: url("images/background.jpg")}
-		#scroll {height: 4224px; background: url("images/scroll.jpg");}
+	<title>모초롱 포트폴리오</title>
 
-		#header {padding: 40px 0 0 60px;}
-		#header>.menu {padding-left: 750px}
-		#header>.playlist {padding-left: 750px}
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		#main>.title {padding:550px 0 0 60px;}
-	</style>
 </head>
 <body>
 <div id="wrap">
@@ -26,6 +25,7 @@
 		</div>
 
 		<img src="images/title.png" class="title">
+		<img src="images/scrolldown.png" class="scrolldown">
 	</div>
 
 
@@ -36,16 +36,10 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script src="jquery.ripples.js"></script>
+<script src="js/jquery.ripples.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		//$('body').ripples({
-			//resolution: 128,
-			//dropRadius: 10, //px
-			//perturbance: 0.04,
-			//interactive: false
-		//});
 		$('#main').ripples({
 			resolution: 512,
 			dropRadius: 40, //px

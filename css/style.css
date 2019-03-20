@@ -1,0 +1,18 @@
+* {margin:0; padding:0; list-style: none}
+body {overflow-x: hidden;}
+
+#wrap {width: 1920px; background: url("../images/test.jpg")}
+#main {height: 1024px; background: url("../images/background.jpg")}
+#scroll {height: 4225px}
+
+/*헤더*/
+#header {position: fixed; top:24px; z-index: 999;}
+#header>.logo {position: relative; top:1px; left: 50px}
+#header>.menu {position: relative; top:0; left:831px}
+#header>.playlist {position: relative; top: 5px; left:1621px}
+
+/*타이포와 스크롤다운*/
+#main>.title {position: relative; top:660px; left:59px; z-index:100}
+/*#main>.title {padding:610px 0 0 59px}*/
+#main>.scrolldown {position: relative; top: 660px; left:1208px; z-index:101}
+/*#main>.scrolldown {padding-left:1150px}*/
