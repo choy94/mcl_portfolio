@@ -16,6 +16,26 @@ body {overflow-x: hidden;}
 
 /*타이포와 스크롤다운*/
 #main>.title {position: relative; top:660px; left:59px; z-index:100}
-/*#main>.title {padding:610px 0 0 59px}*/
-#main>.scrolldown {position: relative; top: 660px; left:1208px; z-index:101}
-/*#main>.scrolldown {padding-left:1150px}*/
+
+/*스크롤다운 버튼*/
+#main>.scrolldown {position: relative; top: 610px; left:1208px; z-index:101}
+#main>.mouse {position: relative; top:660px; left:1171px; z-index: 102}
+
+/*스크롤다운 바운스 애니메이션*/
+#main>.mouse {
+  -moz-animation: bounce 2.4s infinite;
+  -webkit-animation: bounce 2.4s infinite;
+  animation: bounce 2.4s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-16px);
+  }
+  60% {
+    transform: translateY(-8px);
+  }
+}
