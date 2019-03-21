@@ -2,13 +2,13 @@
 body {overflow-x: hidden;}
 
 #wrap {width: 1920px}
-#main {height: 1024px; background: url("../images/background.jpg")}
-#portfolio {height: 4190px}
+#main {height: 1024px; background: url("../images/background.jpg"); position: relative; z-index: 900}
+#portfolio {height: 4190px; position: relative; z-index: 100}
 
 /*헤더*/
-#header {position: fixed; top:24px; z-index: 990; transition: top 0.3s ease-in-out;}
-#header>.logo {position: relative; top:1px; left: 50px; display:inline-block; z-index: 999}
-#header>.menu {position: relative; top:0; left:831px; z-index: 998}
+#header {position: fixed; top:24px; z-index: 901; transition: top 0.3s ease-in-out;}
+#header>.logo {position: relative; top:1px; left: 50px; display:inline-block;}
+#header>.menu {position: relative; top:0; left:831px;}
 
 /*오디오 코멘터리*/
 #header>.commentary {
@@ -16,7 +16,6 @@ body {overflow-x: hidden;}
   width: 300px; height: 300px;
   padding-left: 50px;
   position: absolute;
-  z-index: 100;
   right: -2100px;
   top:-330px;
   transition: all 0.3s;
@@ -38,7 +37,7 @@ body {overflow-x: hidden;}
   left: 880px;
   height: 20px;
   width: 15px;
-  z-index: 995;
+  z-index: 915;
 }
 #header input + label span {
   position: absolute;
@@ -63,7 +62,7 @@ body {overflow-x: hidden;}
   left: 0;
   width: 100%;
   height: 0%;
-  z-index: 993;
+  z-index: 913;
   transition: .5s;
   transition-delay: .5s;
   overflow: hidden;
@@ -101,17 +100,17 @@ body {overflow-x: hidden;}
 #main>.nav-up {top: -56px;}
 
 /*타이포와 스크롤다운*/
-#main>.title {position: relative; top:660px; left:59px; z-index:100}
+#main>.title {position: relative; top:660px; left:59px; z-index:200}
 
 /*스크롤다운 버튼*/
-#main>.scrolldown {position: relative; top: 610px; left:1190px; z-index:101}
-#main>.mouse {position: relative; top:660px; left:1153px; z-index: 102}
+#main>.scrolldown {position: relative; top: 610px; left:1190px; z-index:201}
+#main>.mouse {position: relative; top:660px; left:1153px; z-index: 202}
 
 /*스크롤다운 바운스 애니메이션*/
 #main>.mouse {
-  -moz-animation: bounce 2.4s infinite;
-  -webkit-animation: bounce 2.4s infinite;
-  animation: bounce 2.4s infinite;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
@@ -129,48 +128,48 @@ body {overflow-x: hidden;}
 /*스크롤 영역 - 포트폴리오 섬네일 페이지*/
 
 /*모바일 섬네일*/
-#portfolio>.mobile {position: relative; top: -182px; left:387px; display: inline-block; width: 516px; height: 396px; z-index: 201}
+#portfolio>.mobile {position: relative; top: -182px; left:387px; display: inline-block; width: 516px; height: 396px; z-index: 101}
 #portfolio>.mobile>a {display: block; width: 516px; height: 396px}
 
 /*퍼스널 사이트 섬네일*/
-#portfolio>.personal {position: relative; top:52px; left:666px; display: inline-block; width: 462px; height: 673px; z-index: 202}
+#portfolio>.personal {position: relative; top:52px; left:666px; display: inline-block; width: 462px; height: 673px; z-index: 102}
 #portfolio>.personal>a {display: block; width: 462px; height: 673px}
 
 /*웹 프로젝트 섬네일*/
-#portfolio>.web {position: relative; top:665px; left:-715px; display: inline-block; width: 764px; height: 779px; z-index: 203}
+#portfolio>.web {position: relative; top:665px; left:-715px; display: inline-block; width: 764px; height: 779px; z-index: 103}
 #portfolio>.web>a {display: block; width: 764px; height: 779px}
 
 /*이벤트 섬네일*/
-#portfolio>.event {position: relative; top:235px; left:1095px; display: inline-block; width: 408px; height: 434px; z-index: 204}
+#portfolio>.event {position: relative; top:235px; left:1095px; display: inline-block; width: 408px; height: 434px; z-index: 104}
 #portfolio>.event>a {display: block; width: 408px; height: 434px}
 
 /*꾸밈요소01*/
-#portfolio>.parts01 {position: relative; top:374px; left:-226px; display: inline-block; width: 176px; height: 273px; z-index: 205}
+#portfolio>.parts01 {position: relative; top:374px; left:-226px; display: inline-block; width: 176px; height: 273px; z-index: 105}
 
 /*모델링 포스터 섬네일*/
-#portfolio>.poster {position: relative; top:958px; left:-98px; display: inline-block; width: 930px; height: 630px; z-index: 206}
+#portfolio>.poster {position: relative; top:958px; left:-98px; display: inline-block; width: 930px; height: 630px; z-index: 106}
 #portfolio>.poster>a {display: block; width: 930px; height: 630px}
 
 /*꾸밈요소02*/
-#portfolio>.parts02 {position: relative; top:660px; left:105px; display: inline-block; width: 125px; height: 352px; z-index: 207}
+#portfolio>.parts02 {position: relative; top:660px; left:105px; display: inline-block; width: 125px; height: 352px; z-index: 107}
 
 /*브랜딩 섬네일*/
-#portfolio>.branding {position: relative; top:770px; left:402px; display: inline-block; width: 412px; height: 493px; z-index: 208}
+#portfolio>.branding {position: relative; top:770px; left:402px; display: inline-block; width: 412px; height: 493px; z-index: 108}
 #portfolio>.branding>a {display: block; width: 412px; height: 493px}
 
 /*일러스트 섬네일*/
-#portfolio>.illust {position: relative; top:1073px; left:587px; display: inline-block; width: 710px; height: 836px; z-index: 209}
+#portfolio>.illust {position: relative; top:1073px; left:587px; display: inline-block; width: 710px; height: 836px; z-index: 109}
 #portfolio>.illust>a {display: block; width: 710px; height: 836px}
 
 /*꾸밈요소03*/
-#portfolio>.parts03 {position: relative; top:990px; left:-995px; display: inline-block; width: 238px; height: 100px; z-index: 210}
+#portfolio>.parts03 {position: relative; top:990px; left:-995px; display: inline-block; width: 238px; height: 100px; z-index: 110}
 
 /*그래픽디자인 섬네일*/
-#portfolio>.graphic {position: relative; top:1010px; left:260px; display: inline-block; width: 694px; height: 777px; z-index: 211}
+#portfolio>.graphic {position: relative; top:1010px; left:260px; display: inline-block; width: 694px; height: 777px; z-index: 111}
 #portfolio>.graphic>a {display: block; width: 694px; height: 777px}
 
 /*그래픽디자인 섬네일*/
-#portfolio>.contactme {position: relative; top:1000px; left:367px; display: inline-block; width: 471px; height: 390px; z-index: 212}
+#portfolio>.contactme {position: relative; top:1000px; left:367px; display: inline-block; width: 471px; height: 390px; z-index: 112}
 #portfolio>.contactme>a {display: block; width: 471px; height: 390px}
 
 /*푸터 / 카피라이트*/
