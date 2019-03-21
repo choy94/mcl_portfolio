@@ -99,48 +99,40 @@ body {overflow-x: hidden;}
 /*헤더 자바스크립트로 숨기는 동작*/
 #main>.nav-up {top: -56px;}
 
-/*타이포와 스크롤다운*/
-#main>.title {position: relative; top:660px; left:59px; z-index:200}
-
-/*스크롤다운 버튼*/
-#main>.scrolldown {
-  position: relative;
-  top: 620px;
-  left:1190px;
-  z-index:201;
-  /*animation: fade 2s infinite;*/
-}
-/*
-@keyframes fade {
-  0% {opacity: .7}
-  60% {opacity: 1}
-  100%{opacity: .7}
-}
-*/
-#main>.mouse {
+/*메인 타이포와 스크롤다운*/
+#main>.title {
   position: relative;
   top:660px;
-  left:1153px;
-  z-index: 202;
+  left:59px;
+  z-index:200
+}
+
+/*스크롤다운 버튼*/
+#main>.viewproject {
+  position: relative;
+  top: 420px;
+  left:1820px;
+  z-index:201;
+}
+
+#main>.viewproject>a {
+  display: block;
+  width: 33px;
+  height: 192px
+}
+#main>.viewproject>a>.scrolldown {
+  width: 33px;
+  height: 192px
+}
+
+#main>.viewproject>.mouse {
   animation: scroll 2s infinite;
 }
 @keyframes scroll {
   0% {opacity: 1}
   100% {opacity: .3; transform: translateY(10px);}
 }
-/*
-@keyframes scroll {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0px);
-  }
-  40% {
-    transform: translateY(6px);
-  }
-  60% {
-    transform: translateY(12px);
-  }
-}
-*/
+
 /*스크롤 영역 - 포트폴리오 섬네일 페이지*/
 
 /*모바일 섬네일*/
