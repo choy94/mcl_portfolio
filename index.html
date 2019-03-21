@@ -23,6 +23,7 @@
 
 		<div id="header">
 			<a class="logo" href="index.html"><img src="images/logo.png"></a>
+
 			<!--햄버거메뉴-->
 			<input id="burger" type="checkbox">
 			<label for="burger">
@@ -49,9 +50,14 @@
 		<!--메인 타이틀-->
 		<img src="images/title.png" class="title">
 
-		<!--뷰 프로젝트 / 스크롤다운-->
-		<img src="images/scrolldown.png" class="scrolldown">
-		<img src="images/mouse.png" class="mouse">
+		<!--메인 뷰 프로젝트 / 스크롤다운-->
+		<div class="viewproject">
+			<a class="page-scroll" href="#portfolio">
+				<img src="images/scrolldown.png" class="scrolldown">
+			</a>
+			<img src="images/mouse.png" class="mouse" />
+		</div>
+
 	</div>
 
 
@@ -189,5 +195,23 @@ function hasScrolled() {
 <script>
   new WOW().init();
 </script>
+
+
+<!--링크 스크롤 효과-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+</script>
+
 </body>
 </html>
