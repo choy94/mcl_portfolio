@@ -28,7 +28,7 @@ body {overflow-x: hidden;}
 #header>.commentary>.playlist {position: relative; top: 340px; left: -50px}
 #header>.commentary>audio {position: relative; top: 284px; left: 40px}
 
-/*햄버거메뉴 삭제*/
+/*햄버거메뉴*/
 #header input {display: none}
 
 #header input + label {
@@ -70,7 +70,7 @@ body {overflow-x: hidden;}
 #header input ~ nav > ul {
   text-align: center;
   position: absolute;
-  top: 24%;
+  top: 20%;
   left: 20%;
   right: 20%;
 }
@@ -81,10 +81,11 @@ body {overflow-x: hidden;}
 }
 #header input ~ nav > ul > li > a {
   text-decoration: none;
-  text-transform: uppercase;
-  color: #333333;
   display: block;
   padding: 40px;
+}
+#header input ~ nav > ul > li > label >img {
+  padding-top: 80px;
 }
 #header input:checked ~ nav {
   height: 100%;
