@@ -122,10 +122,14 @@ body {overflow-x: hidden;}
   top:660px;
   left:1153px;
   z-index: 202;
-  animation: move 3s infinite;
+  animation: scroll 2s infinite;
 }
-
-@keyframes move {
+@keyframes scroll {
+  0% {opacity: 1}
+  100% {opacity: .3; transform: translateY(10px);}
+}
+/*
+@keyframes scroll {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0px);
   }
@@ -136,7 +140,7 @@ body {overflow-x: hidden;}
     transform: translateY(12px);
   }
 }
-
+*/
 /*스크롤 영역 - 포트폴리오 섬네일 페이지*/
 
 /*모바일 섬네일*/
