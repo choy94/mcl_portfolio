@@ -175,6 +175,7 @@ function hasScrolled() {
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script>
+	(function($){
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -185,7 +186,9 @@ $(function() {
         event.preventDefault();
     });
 });
+})(jQuery);
 </script>
+
 
 <!--물결 파동 효과-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
