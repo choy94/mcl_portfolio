@@ -13,6 +13,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
 
 </head>
 <body>
@@ -46,7 +47,7 @@
 
 	<div id="portfolio">
 
-		<div class="mobile">
+		<div class="mobile wow">
 			<a href="#"><img src="images/proximity.png" alt="근접성/모바일디자인"></a>
 		</div>
 
@@ -171,6 +172,12 @@ function hasScrolled() {
 
 		//$el.ripples('drop', x, y, dropRadius, strength);
 	//}, 100);
+</script>
+
+<!--스크롤 애니메이션-->
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
 </script>
 </body>
 </html>
