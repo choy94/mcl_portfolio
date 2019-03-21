@@ -164,6 +164,28 @@ function hasScrolled() {
 }
 </script>
 
+<!--스크롤 애니메이션-->
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+
+<!--링크 스크롤 효과-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+</script>
 
 <!--물결 파동 효과-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -188,29 +210,6 @@ function hasScrolled() {
 
 		//$el.ripples('drop', x, y, dropRadius, strength);
 	//}, 100);
-</script>
-
-<!--스크롤 애니메이션-->
-<script src="js/wow.min.js"></script>
-<script>
-  new WOW().init();
-</script>
-
-
-<!--링크 스크롤 효과-->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script>
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
 </script>
 
 </body>
