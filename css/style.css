@@ -103,25 +103,37 @@ body {overflow-x: hidden;}
 #main>.title {position: relative; top:660px; left:59px; z-index:200}
 
 /*스크롤다운 버튼*/
-#main>.scrolldown {position: relative; top: 610px; left:1190px; z-index:201}
-#main>.mouse {position: relative; top:660px; left:1153px; z-index: 202}
-
-/*스크롤다운 바운스 애니메이션*/
+#main>.scrolldown {
+  position: relative;
+  top: 620px;
+  left:1190px;
+  z-index:201;
+  /*animation: fade 2s infinite;*/
+}
+/*
+@keyframes fade {
+  0% {opacity: .7}
+  60% {opacity: 1}
+  100%{opacity: .7}
+}
+*/
 #main>.mouse {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+  position: relative;
+  top:660px;
+  left:1153px;
+  z-index: 202;
+  animation: move 3s infinite;
 }
 
-@keyframes bounce {
+@keyframes move {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0px);
   }
   40% {
-    transform: translateY(-16px);
+    transform: translateY(6px);
   }
   60% {
-    transform: translateY(-8px);
+    transform: translateY(12px);
   }
 }
 
