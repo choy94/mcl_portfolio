@@ -140,7 +140,7 @@ body {overflow-x: hidden;}
 #portfolio>.mobile>a {display: block; width: 535px; height: 396px}
 
 /*퍼스널 사이트 섬네일*/
-#portfolio>.personal {position: relative; top:60px; left:640px; display: inline-block; width: 605px; height: 641px; z-index: 102}
+#portfolio>.personal {position: relative; top:60px; left:600px; display: inline-block; width: 605px; height: 641px; z-index: 102}
 #portfolio>.personal>a {display: block; width: 605px; height: 641px}
 
 /*웹 프로젝트 섬네일*/
@@ -159,7 +159,7 @@ body {overflow-x: hidden;}
 #portfolio>.poster>a {display: block; width: 925px; height: 627px}
 
 /*꾸밈요소02*/
-#portfolio>.parts02 {position: relative; top:700px; left:30px; display: inline-block; width: 125px; height: 352px; z-index: 107}
+#portfolio>.parts02 {position: relative; top:740px; left:10px; display: inline-block; width: 125px; height: 352px; z-index: 107}
 
 /*브랜딩 섬네일*/
 #portfolio>.branding {position: relative; top:770px; left:360px; display: inline-block; width: 534px; height: 489px; z-index: 108}
@@ -183,3 +183,13 @@ body {overflow-x: hidden;}
 /*푸터 / 카피라이트*/
 #footer {clear: both; width: 1920px; height: 50px;}
 #footer>.copyright {padding-left: 820px}
+
+/* 탑버튼 Image style */
+#scrollUp {
+    background-image: url("../images/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+    text-indent: -9999px
+}
