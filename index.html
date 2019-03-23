@@ -13,7 +13,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/animate.css">-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -68,19 +69,19 @@
 
 	<div id="portfolio">
 
-		<div class="mobile wow fadeInUp">
+		<div class="mobile data-aos='fade-up'>
 			<a href="#"><img src="images/proximity.png" alt="근접성/모바일디자인" onmouseover="this.src='images/proximity_over.png'" onmouseout="this.src='images/proximity.png'" /></a>
 		</div>
 
-		<div class="personal wow fadeInUp">
+		<div class="personal data-aos='fade-up'">
 			<a href="#"><img src="images/commonfate.png" alt="공동운명/퍼스널사이트디자인" onmouseover="this.src='images/commonfate_over.png'" onmouseout="this.src='images/commonfate.png'" /></a>
 		</div>
 
-		<div class="web wow fadeInUp">
+		<div class="web data-aos='fade-up'">
 			<a href="#"><img src="images/pastex.png" alt="과거의 경험/웹사이트디자인" onmouseover="this.src='images/pastex_over.png'" onmouseout="this.src='images/pastex.png'"></a>
 		</div>
 
-		<div class="event wow fadeInUp">
+		<div class="event data-aos='fade-up'">
 			<a href="#"><img src="images/simplicity.png" alt="단순성/이벤트디자인" onmouseover="this.src='images/simplicity_over.png'" onmouseout="this.src='images/simplicity.png'"></a>
 		</div>
 
@@ -88,31 +89,31 @@
 			<img src="images/parts01.png" alt="꾸밈요소01">
 		</div>
 
-		<div class="poster wow fadeInUp">
+		<div class="poster data-aos='fade-up'">
 			<a href="#"><img src="images/focalpoint.png" alt="초점/모델링포스터디자인" onmouseover="this.src='images/focalpoint_over.png'" onmouseout="this.src='images/focalpoint.png'"></a>
 		</div>
 
-		<div class="parts02 wow fadeInUp">
+		<div class="parts02">
 			<img src="images/parts02.png" alt="꾸밈요소02">
 		</div>
 
-		<div class="branding wow fadeInUp">
+		<div class="branding data-aos='fade-up'">
 			<a href="#"><img src="images/closure.png" alt="완결성/브랜딩디자인" onmouseover="this.src='images/closure_over.png'" onmouseout="this.src='images/closure.png'"></a>
 		</div>
 
-		<div class="illust wow fadeInUp">
+		<div class="illust data-aos='fade-up'">
 			<a href="#"><img src="images/similarity.png" alt="유사성/일러스트" onmouseover="this.src='images/similarity_over.png'" onmouseout="this.src='images/similarity.png'"></a>
 		</div>
 
-		<div class="parts03 wow fadeInUp">
+		<div class="parts03">
 			<img src="images/parts03.jpg" alt="꾸밈요소03">
 		</div>
 
-		<div class="graphic wow fadeInUp">
+		<div class="graphic data-aos='fade-up'">
 			<a href="#"><img src="images/continuation.png" alt="연속성/그래픽디자인" onmouseover="this.src='images/continuation_over.png'" onmouseout="this.src='images/continuation.png'"></a>
 		</div>
 
-		<div class="contactme wow fadeInUp">
+		<div class="contactme data-aos='fade-up'">
 			<a href="#"><img src="images/contactme.png" alt="컨택트페이지로이동"></a>
 		</div>
 
@@ -170,9 +171,13 @@ function hasScrolled() {
 </script>
 
 <!--스크롤 애니메이션-->
-<script src="js/wow.min.js"></script>
+<!--<script src="js/wow.min.js"></script>
 <script>
   new WOW().init();
+</script>-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 
