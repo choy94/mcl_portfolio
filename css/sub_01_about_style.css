@@ -16,6 +16,14 @@ body {overflow-x: hidden;}
 #main>.nav-up {top: -56px;}
 
 
+/*메인 영상*/
+#main>video {
+  position: relative;
+  z-index: 600;
+  top:175px;
+  left:360px;
+}
+
 /*바디 영역*/
 
 /*바디01*/
