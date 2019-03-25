@@ -15,6 +15,13 @@ body {overflow-x: hidden;}
 /*헤더 자바스크립트로 숨기는 동작*/
 #main>.nav-up {top: -56px;}
 
+/*메인 영상*/
+#main>video {
+  position: relative;
+  z-index: 600;
+  top:175px;
+  left:360px;
+}
 
 /*바디 영역*/
 
