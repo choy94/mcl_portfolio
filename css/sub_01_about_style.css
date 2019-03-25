@@ -41,18 +41,29 @@ body {overflow-x: hidden;}
 
 /*바디 영역*/
 
-/*바디01*/
+/*인용구*/
+#body>.body_intro {
+  width: 100%;
+  height: 65px;
+  background: url("../images/about/about_01.jpg");
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+/*누구도 우연히 오지 않는다*/
 #body>.body01 {
   width: 100%;
-  height: 950px;
+  height: 700px;
   background: url("../images/about/about_02.jpg");
 }
 
-/*바디02*/
+/*키워드*/
 #body>.body02 {
   width: 100%;
   height: 280px;
   background: url("../images/about/about_03.jpg");
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /*복선 01*/
@@ -86,7 +97,7 @@ body {overflow-x: hidden;}
 /*복선 05*/
 #body>.body06 {
   width: 100%;
-  height: 985px;
+  height: 984px;
   background: url("../images/about/about_08.jpg");
 }
 
@@ -107,7 +118,7 @@ body {overflow-x: hidden;}
 /*플레이리스트*/
 #body>.body09 {
   width: 100%;
-  height: 1135px;
+  height: 1130px;
   background: url("../images/about/about_11.jpg");
 }
 
