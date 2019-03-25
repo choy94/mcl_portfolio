@@ -5,8 +5,8 @@ body {overflow-x: hidden;}
   width: 1920px
 }
 #main {
-  height: 1024px;
-  background: url("../images/about/about_01.jpg")
+  height: 942px;
+  background: url("../images/about/about_main.jpg")
 }
 #body {
   width: 100%
