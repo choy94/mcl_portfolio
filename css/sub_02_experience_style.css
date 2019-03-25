@@ -27,7 +27,7 @@ body {overflow-x: hidden;}
 #main>.scrolldown {
   position: relative;
   top:240px;
-  left:960px;
+  left:950px;
   z-index:201;
 }
 #main>.scrolldown>.mouse {
