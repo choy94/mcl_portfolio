@@ -1,0 +1,140 @@
+<!--
+  
+   Copyrightⓒ2018 Night_Planet. All right reserved.
+
+   Desgin by Cholong Mo
+
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>출현::ABOUT</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/sub_01_about_style.css">
+	<link rel="stylesheet" type="text/css" href="css/top.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="wrap">
+
+	<div id="main">
+
+		<div id="header">
+			<a class="logo" href="index.html"><img src="images/logo.png" onmouseover="this.src='images/logo_over.png'" onmouseout="this.src='images/logo.png'" /></a>
+
+			<!--햄버거메뉴-->
+			<input id="burger" type="checkbox">
+			<label for="burger">
+				<img src="images/menu.png" class="menu" onmouseover="this.src='images/menu_over.png'" onmouseout="this.src='images/menu.png'">
+			</label>
+			<nav>
+  			<ul>
+    			<li><a href="sub_01_about.html"><img src="images/menu01.png" alt="출현/어바웃"></a></li>
+    			<li><a href="#"><img src="images/menu02.png" alt="경험/불변성"></a></li>
+    			<li><a href="index.html#portfolio"><img src="images/menu03.png" alt="컨택트/구상화"></a></li>
+    			<li>
+	    			<label for="burger">
+  	  				<img src="images/close.png" alt="닫기" />
+    				</label>
+    			</li>
+  			</ul>
+			</nav>
+
+			<!--오디오 코멘터리-->
+			<div class="commentary">
+				<img src="images/playlist.png" class="playlist" />
+				<audio controls="controls" autoplay="true">
+					<source src="audio/comment_main.mp3" type="audio/mpeg" />
+				</audio>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="body">
+		<div class="body01"></div>
+		<div class="body02"></div>
+		<div class="body03"></div>
+		<div class="body04"></div>
+		<div class="body05"></div>
+		<div class="body06"></div>
+		<div class="body07"></div>
+		<div class="body08"></div>
+		<div class="body09"></div>
+		<div class="body10"></div>
+		<div class="body11"></div>
+	</div>
+
+	<div id="footer">
+		<div class="outro"></div>
+		<div class="footer"></div>
+	</div>
+
+</div>
+
+
+
+
+<!--헤더 숨기기-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('#header').outerHeight();
+
+$(window).scroll(function(event){
+	didScroll = true;
+});
+
+setInterval(function() {
+	if (didScroll) {
+		hasScrolled();
+		didScroll = false;
+	}
+}, 250);
+
+function hasScrolled() {
+	var st = $(this).scrollTop();
+
+		// Make sure they scroll more than delta
+		if(Math.abs(lastScrollTop - st) <= delta) return;
+
+		// If they scrolled down and are past the navbar, add class .nav-up.
+		// This is necessary so you never see what is "behind" the navbar.
+		if (st > lastScrollTop && st > navbarHeight){
+			// Scroll Down
+			$('#header').removeClass('nav-down').addClass('nav-up');
+			} else {
+				// Scroll Up
+				if(st + $(window).height() < $(document).height()) { $('#header').removeClass('nav-up').addClass('nav-down');
+				}
+		}
+
+		lastScrollTop = st;
+}
+</script>
+
+<!--스크롤 애니메이션-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<!--탑버튼-->
+<script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+    $.scrollUp();
+});
+</script>
+
+</body>
+</html>
