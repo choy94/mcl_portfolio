@@ -1,0 +1,155 @@
+* {margin:0; padding:0; list-style: none}
+body {overflow-x: hidden;}
+
+#wrap {
+  width: 1920px
+}
+#main {
+  height: 942px;
+  background: url("../images/experience/ex_main.jpg")
+}
+#body {
+  width: 100%
+}
+
+/*헤더 자바스크립트로 숨기는 동작*/
+#main>.nav-up {top: -56px;}
+
+
+/*바디 영역*/
+
+/*클라이언트와 함께한 순간들*/
+#body>.body01 {
+  width: 100%;
+  height: 840px;
+  background: url("../images/experience/ex_01.jpg");
+}
+
+/*와디즈 공통 미션*/
+#body>.body02 {
+  width: 100%;
+  height: 715px;
+  background: url("../images/experience/ex_02.jpg");
+}
+
+/*와디즈 티버터*/
+#body>.body03 {
+  width: 100%;
+  height: 620px;
+  background: url("../images/experience/ex_03.jpg");
+}
+
+/*티버터 성과*/
+#body>.body04 {
+  width: 100%;
+  height: 300px;
+  background: url("../images/experience/ex_04.jpg");
+}
+
+/*와디즈 티샷*/
+#body>.body05 {
+  width: 100%;
+  height: 615px;
+  background: url("../images/experience/ex_05.jpg");
+}
+
+/*티샷 성과*/
+#body>.body06 {
+  width: 100%;
+  height: 300px;
+  background: url("../images/experience/ex_06.jpg");
+}
+
+/*네이버 스마트스토어*/
+#body>.body07 {
+  width: 100%;
+  height: 940px;
+  background: url("../images/experience/ex_07.jpg");
+}
+
+/*구인 포스터 외주*/
+#body>.body08 {
+  width: 100%;
+  height: 800px;
+  background: url("../images/experience/ex_08.jpg");
+}
+
+/*아이스티크림 포스터*/
+#body>.body09 {
+  width: 100%;
+  height: 580px;
+  background: url("../images/experience/ex_09.jpg");
+}
+
+/*신제품 프로모션 포스터*/
+#body>.body10 {
+  width: 100%;
+  height: 720px;
+  background: url("../images/experience/ex_10.jpg");
+}
+
+/*오키나와 친구에게 패키지*/
+#body>.body11 {
+  width: 100%;
+  height: 1020px;
+  background: url("../images/experience/ex_11.jpg");
+}
+
+/*오리지널 양과자 패키지*/
+#body>.body12 {
+  width: 100%;
+  height: 800px;
+  background: url("../images/experience/ex_12.jpg");
+}
+
+/*셀럽 인증샷*/
+#body>.body13 {
+  width: 100%;
+  height: 340px;
+  background: url("../images/experience/ex_13.jpg");
+}
+
+/*크리스마스 양과자 패키지*/
+#body>.body14 {
+  width: 100%;
+  height: 795px;
+  background: url("../images/experience/ex_14.jpg");
+}
+
+/*현수막*/
+#body>.body15 {
+  width: 100%;
+  height: 1240px;
+  background: url("../images/experience/ex_15.jpg");
+}
+
+/*리플렛*/
+#body>.body16 {
+  width: 100%;
+  height: 800px;
+  background: url("../images/experience/ex_16.jpg");
+}
+
+/*매뉴얼*/
+#body>.body17 {
+  width: 100%;
+  height: 740px;
+  background: url("../images/experience/ex_17.jpg");
+}
+
+/*푸터*/
+#footer {
+  clear: both;
+  width: 1920px;
+  height: 300px;
+}
+#footer>.outro {
+  width: 100%;
+  height: 260px;
+  background: url("../images/experience/ex_18.jpg");
+}
+#footer>.footer {
+  width: 100%;
+  height: 40px;
+  background: url("../images/footer.jpg");
+  }
