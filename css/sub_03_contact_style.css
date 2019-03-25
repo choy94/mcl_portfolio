@@ -1,0 +1,20 @@
+* {margin:0; padding:0; list-style: none}
+body {overflow-x: hidden;}
+
+#wrap {
+  width: 1920px;
+  background: url("../images/contact_test.jpg");
+}
+#main {
+  height: 942px;
+  /*background: url(../images/contact_background.jpg);*/
+}
+
+#main>.whitebox {
+	width: 1740px;
+	height: 800px;
+	background-color: rgba(255, 255, 255, 0);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
