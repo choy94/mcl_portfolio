@@ -1,0 +1,177 @@
+* {margin:0; padding:0; list-style: none}
+body {overflow-x: hidden;}
+
+#wrap {
+  width: 1920px
+}
+#main {
+  width: 100%;
+  height: 1024px;
+  background: url("../images/project_mobile/visual_background.jpg") no-repeat
+}
+#body {
+  width: 1920px
+}
+
+/*헤더 자바스크립트로 숨기는 동작*/
+#main>.nav-up {top: -56px;}
+
+
+/*바디 영역*/
+#body>.body01 {
+  width:100%;
+  height: 345px;
+  margin-top: 200px;
+  background: url(../images/project_mobile/body01.jpg);
+}
+
+#body>.body02 {
+  width:100%;
+  height: 423px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body02.jpg);
+}
+
+#body>.body03 {
+  width:100%;
+  height: 611px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body03.jpg);
+}
+
+#body>.body04 {
+  width:100%;
+  height: 815px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body04.jpg);
+}
+
+#body>.body05 {
+  width:100%;
+  height: 931px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body05.jpg);
+}
+
+#body>.body06 {
+  width:100%;
+  height: 1250px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body06.jpg);
+}
+
+#body>.body07 {
+  width:100%;
+  height: 978px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body07.jpg);
+}
+
+#body>.body08 {
+  width:100%;
+  height: 888px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body08.jpg);
+}
+
+#body>.body09 {
+  width:100%;
+  height: 1016px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body09.jpg);
+}
+
+#body>.body10 {
+  width:100%;
+  height: 998px;
+  background: url(../images/project_mobile/body10.jpg);
+}
+
+#body>.body11 {
+  width:100%;
+  height: 1024px;
+  background: url(../images/project_mobile/body11.jpg);
+}
+
+#body>.body12 {
+  width:100%;
+  height: 998px;
+  background: url(../images/project_mobile/body12.jpg);
+}
+
+#body>.body13 {
+  width:100%;
+  height: 1024px;
+  margin-top: 120px;
+  background: url(../images/project_mobile/body13.jpg);
+}
+
+#body>.body14 {
+  width:100%;
+  height: 756px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body14.jpg);
+}
+
+#body>.body15 {
+  width:100%;
+  height: 314px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body15.jpg);
+}
+
+#body>.body16 {
+  width:100%;
+  height: 450px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body16.jpg);
+}
+
+#body>.body17 {
+  width:100%;
+  height: 534px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body17.jpg);
+}
+
+#body>.body18 {
+  width:100%;
+  height: 246px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body18.jpg);
+}
+
+#body>.body19 {
+  width:100%;
+  height: 164px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body19.jpg);
+}
+
+#body>.body20 {
+  width:100%;
+  height: 452px;
+  margin-top: 150px;
+  background: url(../images/project_mobile/body20.jpg);
+}
+
+#body>.body21 {
+  width:100%;
+  height: 194px;
+  background: url(../images/project_mobile/body21.jpg);
+}
+
+#body>.body22 {
+  width:100%;
+  height: 444px;
+  margin-top: 240px;
+  background: url(../images/project_mobile/body22.jpg);
+}
+
+/*푸터*/
+#footer {
+  clear: both;
+  width: 1920px;
+  height: 40px;
+  background: url("../images/footer.jpg")
+}
