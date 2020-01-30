@@ -7,7 +7,7 @@ body {overflow-x: hidden;}
 #main {
   width: 100%;
   height: 1024px;
-  background: url("../images/project_mobile/visual_background.jpg") no-repeat
+  background: url("../images/project_event/visual_background.jpg") no-repeat
 }
 #body {
   width: 1920px
@@ -26,19 +26,19 @@ body {overflow-x: hidden;}
 #visual .img li:first-child{display:block}
 
 #visual .img li .d_container{position:relative;width:1000px;margin:0 auto}
-#visual .img li.l1 .motion .mockup{position:absolute;left:-270px;top:100px}/*margin 사용금지*/
+#visual .img li.l1 .motion .mockup{position:absolute;left:-280px;top:90px}/*margin 사용금지*/
 #visual .img li.l1 .motion .title{position:absolute;left:315px;top:180px}
-#visual .img li.l1 .motion .button_audio{position:absolute;left:300px;top:325px; z-index: 21}
-#visual .img li.l1 .motion .button_blog{position:absolute;left:520px;top:325px; z-index: 22}
-#visual .img li.l1 .motion .gestalt{position:absolute;left:305px;top:600px}
+#visual .img li.l1 .motion .button_audio{position:absolute;left:290px;top:330px; z-index: 21}
+#visual .img li.l1 .motion .button_blog{position:absolute;left:515px;top:330px; z-index: 22}
+#visual .img li.l1 .motion .gestalt{position:absolute;left:320px;top:600px}
 
-#visual .img li.l2 .motion .mockup{position:absolute;left:-250px;top:110px}/*margin 사용금지*/
-#visual .img li.l2 .motion .title{position:absolute;left:320px;top:190px}
-#visual .img li.l2 .motion .button_audio{position:absolute;left:300px;top:390px; z-index: 23}
-#visual .img li.l2 .motion .button_blog{position:absolute;left:520px;top:390px; z-index: 24}
-#visual .img li.l2 .motion .overview{position:absolute;left:305px;top:600px}
+#visual .img li.l2 .motion .mockup{position:absolute;left:-270px;top:105px}/*margin 사용금지*/
+#visual .img li.l2 .motion .title{position:absolute;left:432px;top:170px}
+#visual .img li.l2 .motion .button_audio{position:absolute;left:405px;top:370px; z-index: 23}
+#visual .img li.l2 .motion .button_blog{position:absolute;left:625px;top:370px; z-index: 24}
+#visual .img li.l2 .motion .overview{position:absolute;left:420px;top:590px}
 
-#visual .img li.l3 .motion {position:absolute;left:-110px;top:130px}/*margin 사용금지*/
+#visual .img li.l3 .motion {position:absolute;left:-110px;top:140px}/*margin 사용금지*/
 #playbutton {text-indent: -9999px; display: none;}
 
 #visual .btn{
@@ -87,143 +87,121 @@ body {overflow-x: hidden;}
 /*바디 영역*/
 #body>.body01 {
   width:100%;
-  height: 345px;
+  height: 347px;
   margin-top: 200px;
-  background: url(../images/project_mobile/body01.jpg);
+  background: url(../images/project_event/body01.jpg);
 }
 
 #body>.body02 {
   width:100%;
-  height: 423px;
-  margin-top: 200px;
-  background: url(../images/project_mobile/body02.jpg);
+  height: 438px;
+  margin-top: 150px;
+  background: url(../images/project_event/body02.jpg);
 }
 
 #body>.body03 {
   width:100%;
-  height: 622px;
-  margin-top: 145px;
-  background: url(../images/project_mobile/body03.jpg);
+  height: 623px;
+  margin-top: 150px;
+  background: url(../images/project_event/body03.jpg);
 }
 
 #body>.body03 a img {
-  margin:505px 0 0 960px;
+  margin:504px 0 0 960px;
 }
 
 #body>.body04 {
   width:100%;
-  height: 815px;
+  height: 645px;
   margin-top: 150px;
-  background: url(../images/project_mobile/body04.jpg);
+  background: url(../images/project_event/body04.jpg);
 }
 
 #body>.body05 {
   width:100%;
-  height: 931px;
-  margin-top: 150px;
-  background: url(../images/project_mobile/body05.jpg);
+  height: 727px;
+  margin-top: 100px;
+  background: url(../images/project_event/body05.jpg);
 }
 
 #body>.body06 {
   width:100%;
-  height: 1476px;
+  height: 930px;
   margin-top: 150px;
-  background: url(../images/project_mobile/body06.jpg);
+  background: url(../images/project_event/body06.jpg);
 }
 
 #body>.body07 {
   width:100%;
-  height: 978px;
-  background: url(../images/project_mobile/body07.jpg);
+  height: 955px;
+  background: url(../images/project_event/body07.jpg);
 }
 
 #body>.body08 {
   width:100%;
-  height: 886px;
-  margin-top: 150px;
-  background: url(../images/project_mobile/body08.jpg);
+  height: 896px;
+  background: url(../images/project_event/body08.jpg);
 }
 
 #body>.body09 {
   width:100%;
-  height: 1016px;
-  margin-top: 150px;
-  background: url(../images/project_mobile/body09.jpg);
+  height: 895px;
+  background: url(../images/project_event/body09.jpg);
 }
 
 #body>.body10 {
   width:100%;
-  height: 998px;
-  background: url(../images/project_mobile/body10.jpg);
+  height: 3540px;
+  background: url(../images/project_event/body10.jpg);
 }
 
 #body>.body11 {
   width:100%;
-  height: 1024px;
-  background: url(../images/project_mobile/body11.jpg);
+  height: 1007px;
+  background: url(../images/project_event/body11.jpg);
 }
 
 #body>.body12 {
   width:100%;
-  height: 998px;
-  background: url(../images/project_mobile/body12.jpg);
+  height: 933px;
+  margin-top: 150px;
+  background: url(../images/project_event/body12.jpg);
 }
 
 #body>.body13 {
   width:100%;
-  height: 1024px;
+  height: 386px;
   margin-top: 120px;
-  background: url(../images/project_mobile/body13.jpg);
+  background: url(../images/project_event/body13.jpg);
 }
 
 #body>.body14 {
   width:100%;
-  height: 756px;
+  height: 384px;
   margin-top: 150px;
-  background: url(../images/project_mobile/body14.jpg);
+  background: url(../images/project_event/body14.jpg);
 }
 
 #body>.body15 {
   width:100%;
-  height: 314px;
+  height: 522px;
   margin-top: 150px;
-  background: url(../images/project_mobile/body15.jpg);
+  background: url(../images/project_event/body15.jpg);
 }
 
 #body>.body16 {
   width:100%;
-  height: 450px;
+  height: 557px;
   margin-top: 150px;
-  background: url(../images/project_mobile/body16.jpg);
-}
-
-#body>.body17 {
-  width:100%;
-  height: 534px;
-  margin-top: 150px;
-  background: url(../images/project_mobile/body17.jpg);
-}
-
-#body>.body18 {
-  width:100%;
-  height: 246px;
-  margin-top: 150px;
-  background: url(../images/project_mobile/body18.jpg);
-}
-
-#body>.body19 {
-  width:100%;
-  height: 164px;
-  margin-top: 150px;
-  background: url(../images/project_mobile/body19.jpg);
+  background: url(../images/project_event/body16.jpg);
 }
 
 /*피드백*/
-#body>.body20 {
+#body>.body17 {
   width:100%;
   height: 453px;
   margin-top: 150px;
-  background: url(../images/project_mobile/feedback_background.jpg);
+  background: url(../images/feedback_background.jpg);
 }
 #feedback_banner {
   width:100%;
@@ -242,10 +220,9 @@ body {overflow-x: hidden;}
 #feedback_banner .img li:first-child{display:block}
 
 #feedback_banner .img li .d_container{position:relative;width:1000px;margin:0 auto}
-#feedback_banner .img li.l1 .motion{position:absolute;
-top:170px; left:85px}/*margin 사용금지*/
-#feedback_banner .img li.l2 .motion{position:absolute;top:160px; left: 45px}/*margin 사용금지*/
-#feedback_banner .img li.l3 .motion{position:absolute;left:125px;top:165px}/*margin 사용금지*/
+#feedback_banner .img li.l1 .motion{position:absolute; top:160px; left:145px;}/*margin 사용금지*/
+#feedback_banner .img li.l2 .motion{position:absolute; top:165px; left:-35px;}/*margin 사용금지*/
+#feedback_banner .img li.l3 .motion{position:absolute; top:170px; left:70px;}/*margin 사용금지*/
 
 
 #feedback_banner .btn{
@@ -267,19 +244,11 @@ top:170px; left:85px}/*margin 사용금지*/
 #feedback_banner .next{left:50%;margin-left:650px}
 
 
-#body>.body21 {
+#body>.body18 {
   width:100%;
-  height: 194px;
-  background: url(../images/project_mobile/body21.jpg);
+  height: 192px;
+  background: url(../images/project_event/body17.jpg);
 }
-
-#body>.body22 {
-  width:100%;
-  height: 444px;
-  margin-top: 240px;
-  background: url(../images/project_mobile/body22.jpg);
-}
-
 
 #another {
   width:1920px;

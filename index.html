@@ -9,8 +9,10 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>모초롱 포트폴리오</title>
+	<title>모초롱 포트폴리오 :: GESTALT</title>
 
+	<link rel="shortcut icon" href="myicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,7 +20,7 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
 <div id="wrap">
 
 	<div id="main">
@@ -35,8 +37,8 @@
   			<ul>
     			<li><a href="sub_01_about.html"><img src="images/menu01.png" alt="출현/어바웃" onmouseover="this.src='images/menu01_over.png'" onmouseout="this.src='images/menu01.png'" /></a></li>
     			<li><a href="sub_02_experience.html"><img src="images/menu02.png" alt="경험/불변성" onmouseover="this.src='images/menu02_over.png'" onmouseout="this.src='images/menu02.png'" /></a></li>
-    			<li><a href="sub_03_contact.html"><img src="images/menu03.png" alt="컨택트/구상화" onmouseover="this.src='images/menu03_over.png'" onmouseout="this.src='images/menu03.png'" /></a></li>
     			<li><a href="index.html#portfolio"><img src="images/menu04.png" alt="포트폴리오/다중안정성" onmouseover="this.src='images/menu04_over.png'" onmouseout="this.src='images/menu04.png'" /></a></li>
+    			<li><a href="sub_03_contact.html"><img src="images/menu03.png" alt="컨택트/구상화" onmouseover="this.src='images/menu03_over.png'" onmouseout="this.src='images/menu03.png'" /></a></li>
     			<li class="closebutton">
 	    			<label for="burger">
   	  				<img src="images/close.png" alt="닫기" onmouseover="this.src='images/close_over.png'" onmouseout="this.src='images/close.png'" />
@@ -48,8 +50,8 @@
 			<!--오디오 코멘터리-->
 			<div class="commentary">
 				<img src="images/playlist.png" class="playlist" />
-				<audio controls="controls" autoplay="true" preload="auto">
-					<source src="audio/comment_main.mp3" type="audio/mpeg" />
+				<audio controls="controls" autoplay="autoplay">
+					<source src="audio/01main.mp3" type="audio/mpeg" />
 				</audio>
 			</div>
 
@@ -63,60 +65,103 @@
 			<a class="page-scroll" href="#portfolio">
 				<img src="images/scrolldown.png" class="scrolldown">
 			</a>
-			<img src="images/mouse.png" class="mouse" />
+			<img src="images/mouse2.png" class="mouse" />
 		</div>
 
 	</div>
 
 
-	<div id="portfolio">
+	<div id="portfolio" data-aos="fade-up" data-aos-duration="2000">
 
-		<div class="mobile" data-aos="fade-up">
-			<a href="project_01_mobile.html"><img src="images/proximity.png" alt="근접성/모바일디자인" onmouseover="this.src='images/proximity_over.png'" onmouseout="this.src='images/proximity.png'" /></a>
+		<div class="mobile"
+		data-aos="fade-up"
+		data-aos-delay="300"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_01_mobile.html"><img src="images/proximity.png" alt="근접성/모바일디자인" onmouseover="this.src='images/proximity_over.jpg'" onmouseout="this.src='images/proximity.png'" /></a>
 		</div>
 
-		<div class="personal" data-aos="fade-up">
-			<a href="#"><img src="images/commonfate.png" alt="공동운명/퍼스널사이트디자인" onmouseover="this.src='images/commonfate_over.png'" onmouseout="this.src='images/commonfate.png'" /></a>
+		<div class="personal"
+		data-aos="fade-up"
+		data-aos-offset="100"
+    data-aos-delay="600"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_02_personal.html"><img src="images/commonfate.png" alt="공동운명/퍼스널사이트디자인" onmouseover="this.src='images/commonfate_over.jpg'" onmouseout="this.src='images/commonfate.png'" /></a>
 		</div>
 
-		<div class="web" data-aos="fade-up">
-			<a href="#"><img src="images/pastex.png" alt="과거의 경험/웹사이트디자인" onmouseover="this.src='images/pastex_over.png'" onmouseout="this.src='images/pastex.png'"></a>
+		<div class="web"
+		data-aos="fade-up"
+		data-aos-offset="100"
+    data-aos-delay="900"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_03_web.html"><img src="images/pastex.png" alt="과거의 경험/웹사이트디자인" onmouseover="this.src='images/pastex_over.jpg'" onmouseout="this.src='images/pastex.png'"></a>
 		</div>
 
-		<div class="event" data-aos="fade-up">
-			<a href="#"><img src="images/simplicity.png" alt="단순성/이벤트디자인" onmouseover="this.src='images/simplicity_over.png'" onmouseout="this.src='images/simplicity.png'"></a>
+		<div class="event"
+		data-aos="fade-up"
+		data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_04_event.html"><img src="images/simplicity.png" alt="단순성/이벤트디자인" onmouseover="this.src='images/simplicity_over.jpg'" onmouseout="this.src='images/simplicity.png'"></a>
 		</div>
 
 		<div class="parts01">
 			<img src="images/parts01.png" alt="꾸밈요소01">
 		</div>
 
-		<div class="poster" data-aos="fade-up">
-			<a href="#"><img src="images/focalpoint.png" alt="초점/모델링포스터디자인" onmouseover="this.src='images/focalpoint_over.png'" onmouseout="this.src='images/focalpoint.png'"></a>
+		<div class="poster"
+		data-aos="fade-up"
+		data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_05_modeling.html"><img src="images/focalpoint.png" alt="초점/모델링포스터디자인" onmouseover="this.src='images/focalpoint_over.jpg'" onmouseout="this.src='images/focalpoint.png'"></a>
 		</div>
 
 		<div class="parts02">
 			<img src="images/parts02.png" alt="꾸밈요소02">
 		</div>
 
-		<div class="branding" data-aos="fade-up">
-			<a href="#"><img src="images/closure.png" alt="완결성/브랜딩디자인" onmouseover="this.src='images/closure_over.png'" onmouseout="this.src='images/closure.png'"></a>
+		<div class="branding"
+		data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_06_branding.html"><img src="images/closure.png" alt="완결성/브랜딩디자인" onmouseover="this.src='images/closure_over.jpg'" onmouseout="this.src='images/closure.png'"></a>
 		</div>
 
-		<div class="illust" data-aos="fade-up">
-			<a href="#"><img src="images/similarity.png" alt="유사성/일러스트" onmouseover="this.src='images/similarity_over.png'" onmouseout="this.src='images/similarity.png'"></a>
+		<div class="illust"
+		data-aos="fade-up"
+		data-aos-offset="100"
+    data-aos-delay="500"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out">
+			<a href="project_07_illust.html"><img src="images/similarity.png" alt="유사성/일러스트" onmouseover="this.src='images/similarity_over.jpg'" onmouseout="this.src='images/similarity.png'"></a>
 		</div>
 
 		<div class="parts03">
 			<img src="images/parts03.jpg" alt="꾸밈요소03">
 		</div>
 
-		<div class="graphic" data-aos="fade-up">
-			<a href="#"><img src="images/continuation.png" alt="연속성/그래픽디자인" onmouseover="this.src='images/continuation_over.png'" onmouseout="this.src='images/continuation.png'"></a>
+		<div class="graphic"
+		data-aos="fade-up"
+		data-aos-offset="100"
+    data-aos-delay="300"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="project_08_graphic.html"><img src="images/continuation.png" alt="연속성/그래픽디자인" onmouseover="this.src='images/continuation_over.jpg'" onmouseout="this.src='images/continuation.png'"></a>
 		</div>
 
-		<div class="contactme" data-aos="fade-up">
-			<a href="sub_03_contact.html"><img src="images/contactme.png" alt="컨택트페이지로이동"></a>
+		<div class="contactme"
+		data-aos="fade-up"
+    data-aos-delay="400"
+    data-aos-duration="500"
+    data-aos-easing="ease-out">
+			<a href="sub_03_contact.html"><img src="images/contactme.png" onmouseover="this.src='images/contactme_over.jpg'" onmouseout="this.src='images/contactme.png'" alt="컨택트페이지로이동"></a>
 		</div>
 
 	</div>
@@ -128,7 +173,18 @@
 </div>
 
 
-
+<!--
+<script type="text/javascript">
+//3초 후 자동 이동
+setTimeout("location.href='index.html#portfolio'",4000);
+clearTimeout();
+</script>-->
+<script type="text/javascript">
+timer = window.setTimeout(function(){
+     setTimeout("location.href='#portfolio'");
+     window.clearTimeout(timer);
+},7000);
+</script>
 
 <!--헤더 숨기기-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -205,22 +261,22 @@ $(function() {
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#main').ripples({
-			resolution: 256,
+			resolution: 480,
 			dropRadius: 40, //px
 			perturbance: 0.005,
 		});
 	})
 
 	// Automatic drops
-	//setInterval(function() {
-		//var $el = $('#main');
-		//var x = Math.random() * $el.outerWidth();
-		//var y = Math.random() * $el.outerHeight();
-		//var dropRadius = 20;
-		//var strength = 0.04 + Math.random() * 0.04;
+	setInterval(function() {
+		var $el = $('#main');
+		var x = Math.random() * $el.outerWidth();
+		var y = Math.random() * $el.outerHeight();
+		var dropRadius = 30;
+		var strength = 0.01 + Math.random() * 0.03;
 
-		//$el.ripples('drop', x, y, dropRadius, strength);
-	//}, 100);
+		$el.ripples('drop', x, y, dropRadius, strength);
+	}, 100);
 </script>
 
 <!--탑버튼-->

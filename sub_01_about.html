@@ -9,7 +9,10 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>출현::ABOUT</title>
+	<title>출현 :: ABOUT</title>
+
+	<link rel="shortcut icon" href="myicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
@@ -18,9 +21,12 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script><!--상위버전 호출-->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script><!--easing-->
+	<script type="text/javascript" src="js/jquery.d_tabMotionWideBanner.min.js"></script>
 
 </head>
-<body>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
 <div id="wrap">
 
 	<div id="main">
@@ -37,8 +43,8 @@
   			<ul>
     			<li><a href="sub_01_about.html"><img src="images/menu01.png" alt="출현/어바웃" onmouseover="this.src='images/menu01_over.png'" onmouseout="this.src='images/menu01.png'" /></a></li>
     			<li><a href="sub_02_experience.html"><img src="images/menu02.png" alt="경험/불변성" onmouseover="this.src='images/menu02_over.png'" onmouseout="this.src='images/menu02.png'" /></a></li>
-    			<li><a href="sub_03_contact.html"><img src="images/menu03.png" alt="컨택트/구상화" onmouseover="this.src='images/menu03_over.png'" onmouseout="this.src='images/menu03.png'" /></a></li>
     			<li><a href="index.html#portfolio"><img src="images/menu04.png" alt="포트폴리오/다중안정성" onmouseover="this.src='images/menu04_over.png'" onmouseout="this.src='images/menu04.png'" /></a></li>
+    			<li><a href="sub_03_contact.html"><img src="images/menu03.png" alt="컨택트/구상화" onmouseover="this.src='images/menu03_over.png'" onmouseout="this.src='images/menu03.png'" /></a></li>
     			<li class="closebutton">
 	    			<label for="burger">
   	  				<img src="images/close.png" alt="닫기" onmouseover="this.src='images/close_over.png'" onmouseout="this.src='images/close.png'" />
@@ -50,8 +56,8 @@
 			<!--오디오 코멘터리-->
 			<div class="commentary">
 				<img src="images/playlist.png" class="playlist" />
-				<audio controls="controls" preload="auto">
-					<source src="audio/comment_main.mp3" type="audio/mpeg" />
+				<audio controls="controls" autoplay="true">
+					<source src="audio/02about.mp3" type="audio/mpeg" />
 				</audio>
 			</div>
 
@@ -64,24 +70,130 @@
 
 		<!--스크롤다운 마우스-->
 		<div class="scrolldown">
-			<img src="images/mouse.png" class="mouse" />
+			<img src="images/mouse2.png" class="mouse" />
 		</div>
 
 	</div>
 
 	<div id="body">
-		<div class="body_intro"></div>
-		<div class="body01" data-aos="fade-left"></div>
-		<div class="body02"></div>
-		<div class="body03" data-aos="fade-right"></div>
-		<div class="body04" data-aos="fade-left"></div>
-		<div class="body05" data-aos="fade-right"></div>
-		<div class="body06" data-aos="fade-left"></div>
-		<div class="body07" data-aos="fade-up"></div>
-		<div class="body08" data-aos="fade-up"></div>
-		<div class="body09" data-aos="fade-right"></div>
-		<div class="body10"></div>
-		<div class="body11" data-aos="fade-up"></div>
+		<div class="body_intro"	data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body01" data-aos="fade-left"
+		data-aos-offset="300"
+		data-aos-delay="200"
+    data-aos-duration="300"
+    data-aos-easing="ease-out">
+    	<div class="sns">
+    		<a href="https://www.instagram.com/night_planet_/" target="_blank"><img class="insta" src="images/insta.png" onmouseover="this.src='images/insta_over.png'" onmouseout="this.src='images/insta.png'" alt="인스타그램" /></a>
+    		<a href="https://blog.naver.com/choy_94" target="_blank"><img src="images/blog.png" onmouseover="this.src='images/blog_over.png'" onmouseout="this.src='images/blog.png'" alt="네이버 블로그" /></a>
+    	</div>
+    </div>
+
+		<div class="body02"	data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+		<div class="body03" data-aos="fade-left"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+		<div class="body04" data-aos="fade-right"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+    <div class="body05" data-aos="fade-left"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body06" data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out">
+    	<ul>
+   	 		<a href="https://www.wadiz.kr/web/campaign/detail/27456" target="_blank"><img src="images/about/thumb_01_over.jpg" onmouseover="this.src='images/about/thumb_01.jpg'" onmouseout="this.src='images/about/thumb_01_over.jpg'" alt="와디즈 오키나와 친구에게 프로젝트" /></a>
+    		<a href="https://www.wadiz.kr/web/campaign/detail/20057" target="_blank"><img src="images/about/thumb_02.jpg" onmouseover="this.src='images/about/thumb_02_over.jpg'" onmouseout="this.src='images/about/thumb_02.jpg'" alt="와디즈 티샷 프로젝트" /></a>
+    		<a href="https://www.wadiz.kr/web/campaign/detail/17374" target="_blank"><img src="images/about/thumb_03_over.jpg" onmouseover="this.src='images/about/thumb_03.jpg'" onmouseout="this.src='images/about/thumb_03_over.jpg'" alt="와디즈 티버터 프로젝트" /></a>
+   		</ul>
+  	</div>
+
+		<div class="body07" data-aos="fade-left"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+		<div class="body08" data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+		<div class="body09" data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+		<div class="body10" data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
+		
+		<div class="body11">
+			<div id="banner">
+				<ul class="img">
+					<li class="l1">
+						<div class="d_container">
+							<div class="motion"><img src="images/about/banner_text_01.png" alt="명언1"/></div>
+						</div>
+					</li>
+					<li class="l2">
+						<div class="d_container">
+							<div class="motion"><img src="images/about/banner_text_02.png" alt="명언2"/></div>	
+						</div>
+					</li>
+					<li class="l3">
+						<div class="d_container">
+							<div class="motion"><img src="images/about/banner_text_03.png" alt="명언3"/></div>
+						</div>
+					</li>
+					<li class="l4">
+						<div class="d_container">
+							<div class="motion"><img src="images/about/banner_text_04.png" alt="명언4"/></div>
+						</div>
+					</li>
+					<li class="l5">
+						<div class="d_container">
+							<div class="motion"><img src="images/about/banner_text_05.png" alt="명언5"/></div>
+						</div>
+					</li>
+				</ul>
+
+				<ul class="btn">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+		
+	<div class="arrow next"><img src="images/nextArrow.png" alt="다음"/></div>
+	<div class="arrow prev"><img src="images/prevArrow.png" alt="이전"/></div>
+	
+
+</div>
+<script type="text/javascript">
+		$('#banner').d_tabMotionWideBanner({
+			key:'c65806',
+			motionSpeed:1000,                 //이동속도
+			motionDelay:300,                  //모션딜레이(텍스트와 배경의 시간차 이동)
+			autoRollingTime:5000             //자동롤링속도(1000 = 1초)			
+		})
+</script>
+		</div>
+
+		<div class="body12" data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="300"
+    data-aos-easing="ease-out"></div>
 	</div>
 
 	<div id="footer">

@@ -9,14 +9,14 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>근접성 :: 모바일 디자인</title>
+	<title>단순성 :: 이벤트 디자인</title>
 
 	<link rel="shortcut icon" href="myicon.ico" type="image/x-icon">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/project_01_mobile_style.css">
+	<link rel="stylesheet" type="text/css" href="css/project_04_event_style.css">
 	<link rel="stylesheet" type="text/css" href="css/top.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
@@ -58,7 +58,7 @@
 			<div class="commentary">
 				<img src="images/playlist.png" class="playlist" />
 				<audio id="player" controls="controls" preload="auto">
-					<source src="audio/04mobile.mp3" type="audio/mpeg" />
+					<source src="audio/07event.mp3" type="audio/mpeg" />
 				</audio>
 			</div>
 
@@ -70,43 +70,39 @@
 				<li class="l1">
 					<div class="d_container">
 						<div class="motion">
-							<img class="mockup" src="images/project_mobile/main01_phone.png" alt="스마트폰 목업"/>
-							<img class="title" src="images/project_mobile/main01_title.png">
-							
+							<img class="mockup" src="images/project_event/main01_phone.png" alt="스마트폰 목업"/>
+							<img class="title" src="images/project_event/main01_title.png">
 							<div class="button_audio">
 								<button id="playbutton" onclick="document.getElementById('player').play()">Play</button>
 								<label for="playbutton"><img src="images/button_audio.png" onmouseover="this.src='images/button_audio_over.png'" onmouseout="this.src='images/button_audio.png'" alt="도슨트 설명 듣기" />
 								</label>
 							</div>
-
 							<div class="button_blog">
-								<a href="pdf/landing_mobile.png" target="_blank"><img src="images/button_landing.png" onmouseover="this.src='images/button_landing_over.png'" onmouseout="this.src='images/button_landing.png'" alt="랜딩페이지 보기" /></a>
+								<a href="pdf/landing_event.png" target="_blank"><img src="images/button_landing.png" onmouseover="this.src='images/button_landing_over.png'" onmouseout="this.src='images/button_landing.png'" alt="랜딩페이지 보기" /></a>
 							</div>
-							<img class="gestalt" src="images/project_mobile/main01_gestalt.png" />
+							<img class="gestalt" src="images/project_event/main01_gestalt.png" />
 						</div>
 					</div>
 				</li>
 				<li class="l2">
 					<div class="d_container">
 						<div class="motion">
-							<img class="mockup" src="images/project_mobile/main02_phone.png" alt="스마트폰 목업"/>
-							<img class="title" src="images/project_mobile/main02_title.png">
+							<img class="mockup" src="images/project_event/main02_pad.png" alt="아이패드 목업"/>
+							<img class="title" src="images/project_event/main02_title.png">
 							<div class="button_audio">
 								<button id="playbutton" onclick="document.getElementById('player').play()">Play</button>
 								<label for="playbutton"><img src="images/button_audio.png" onmouseover="this.src='images/button_audio_over.png'" onmouseout="this.src='images/button_audio.png'" alt="도슨트 설명 듣기" />
 								</label>
 							</div>
-							<div class="button_blog">
-								<a href="pdf/landing_mobile.png" target="_blank"><img src="images/button_landing.png" onmouseover="this.src='images/button_landing_over.png'" onmouseout="this.src='images/button_landing.png'" alt="랜딩페이지 보기" /></a>
-							</div>
-							<img class="overview" src="images/project_mobile/main02_overview.png" />
+								<a href="pdf/landing_event.png" target="_blank"><img class="button_blog" src="images/button_landing.png" onmouseover="this.src='images/button_landing_over.png'" onmouseout="this.src='images/button_landing.png'" alt="랜딩페이지 보기" /></a>
+							<img class="overview" src="images/project_event/main02_overview.png" />
 						</div>
 					</div>
 				</li>
 				<li class="l3">
 					<div class="d_container">
 						<div class="motion">
-							<img src="images/project_mobile/main03.png" alt="아이패드"/>
+							<img src="images/project_event/main03.png" alt="아이패드"/>
 						</div>
 					</div>
 				</li>
@@ -126,7 +122,7 @@
 		$('#visual').d_tabMotionWideBanner({
 			key:'c65806',
 			motionSpeed:1000,                 //이동속도
-			motionDelay:300,                  //모션딜레이(텍스트와 배경의 시간차 이동)
+			motionDelay:200,                  //모션딜레이(텍스트와 배경의 시간차 이동)
 			autoRollingTime:2000             //자동롤링속도(1000 = 1초)			
 		})
 </script>
@@ -136,101 +132,103 @@
 
 	<div id="body">
 		<div class="body01" data-aos="fade-up"
-    data-aos-duration="300"
+    data-aos-duration="400"
     data-aos-easing="ease-out"></div>
+
 		<div class="body02" data-aos="fade-up"
 		data-aos-offset="300"
-    data-aos-duration="300"
+    data-aos-duration="400"
     data-aos-easing="ease-out"></div>
 
 		<div class="body03" data-aos="fade"
 		data-aos-offset="300"
-    data-aos-duration="300"
+    data-aos-duration="400"
     data-aos-easing="ease-out">
-    	<a href="https://blog.naver.com/choy_94/221377350389" target="_blank"><img src="images/project_event/blog.jpg" onmouseover="this.src='images/project_event/blog_over.jpg'" onmouseout="this.src='images/project_event/blog.jpg'" alt="블로그 포스팅 보러가기" /></a>
+    	<a href="https://blog.naver.com/choy_94/221339630008" target="_blank"><img src="images/project_event/blog.jpg" onmouseover="this.src='images/project_event/blog_over.jpg'" onmouseout="this.src='images/project_event/blog.jpg'" alt="블로그 포스팅 보러가기" /></a>
     </div>
 
 		<div class="body04" data-aos="fade-up"
 		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body05"	data-aos="fade"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body06"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body07"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body08"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body09"	data-aos="fade-left"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body10"	data-aos="fade-right"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body11"	data-aos="fade-left"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body12"	data-aos="fade-right"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body13"	data-aos="fade"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body14"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body15"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body16"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body17"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body18"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
-    data-aos-easing="ease-out"></div>
-		<div class="body19"	data-aos="fade-up"
-		data-aos-offset="300"
-    data-aos-duration="300"
+    data-aos-duration="400"
     data-aos-easing="ease-out"></div>
 
-		<div class="body20">
+		<div class="body05"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body06"	data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body07"	data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body08"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body09"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body10"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body11"	data-aos="fade"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body12"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body13"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body14"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body15"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+		<div class="body16"	data-aos="fade-up"
+		data-aos-offset="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-out"></div>
+
+
+		<div class="body17">
 			<div id="feedback_banner">
 				<ul class="img">
 					<li class="l1">
 						<div class="d_container">
-							<div class="motion"><a href="#"><img src="images/project_mobile/mobile_feedback_01.png" alt="피드백1"/></a></div>
+							<div class="motion"><a href="#"><img src="images/project_event/event_feedback_01.png" alt="피드백1"/></a></div>
 						</div>
 					</li>
 					<li class="l2">
 						<div class="d_container">
-							<div class="motion"><a href="#"><img src="images/project_mobile/mobile_feedback_02.png" alt="피드백2"/></a></div>	
+							<div class="motion"><a href="#"><img src="images/project_event/event_feedback_02.png" alt=""/></a></div>	
 						</div>
 					</li>
 					<li class="l3">
 						<div class="d_container">
-							<div class="motion"><a href="#"><img src="images/project_mobile/mobile_feedback_03.png" alt="피드백3"/></a></div>
+							<div class="motion"><a href="#"><img src="images/project_event/event_feedback_03.png" alt=""/></a></div>
 						</div>
 					</li>
 	</ul>
@@ -254,14 +252,14 @@
 		})
 </script>
 		</div>
-		<div class="body21"></div>
+
+		<div class="body18"></div>
 	</div>
 
-
 	<div id="another">
-			<ul class="list_up"	data-aos="fade-right"
-    data-aos-duration="400"
-    data-aos-easing="ease-out">
+			<ul class="list_up"data-aos="fade-right"
+    		data-aos-duration="400"
+    		data-aos-easing="ease-out">
 				<li class="li_mobile"><a href="project_01_mobile.html"><img src="images/li_mobile.png" onmouseover="this.src='images/li_mobile_over.png'" onmouseout="this.src='images/li_mobile.png'" alt="모바일디자인으로 이동" /></a></li>
 
 				<li class="li_personal"><a href="project_02_personal.html"><img src="images/li_personal.png" onmouseover="this.src='images/li_personal_over.png'" onmouseout="this.src='images/li_personal.png'" alt="퍼스널사이트 디자인으로 이동" /></a></li>
@@ -272,9 +270,9 @@
 			</ul>
 
 			<ul class="list_down"	data-aos="fade-left"
-			data-aos-delay="300"
-			data-aos-duration="400"
-    	data-aos-easing="ease-out">
+				data-aos-delay="300"
+				data-aos-duration="400"
+    		data-aos-easing="ease-out">
 				<li class="li_modeling"><a href="project_05_modeling.html"><img src="images/li_modeling.png" onmouseover="this.src='images/li_modeling_over.png'" onmouseout="this.src='images/li_modeling.png'" alt="모델링 포스터 디자인으로 이동" /></a></li>
 
 				<li class="li_branding"><a href="project_06_branding.html"><img src="images/li_branding.png" onmouseover="this.src='images/li_branding_over.png'" onmouseout="this.src='images/li_branding.png'" alt="브랜딩으로 이동" /></a></li>
@@ -284,7 +282,6 @@
 				<li class="li_graphic"><a href="project_08_graphic.html"><img src="images/li_graphic.png" onmouseover="this.src='images/li_graphic_over.png'" onmouseout="this.src='images/li_graphic.png'" alt="그래픽디자인으로 이동" /></a></li>
 			</ul>
 		</div>
-
 
 	<div id="footer"></div>
 

@@ -1,15 +1,15 @@
 * {margin:0; padding:0; list-style: none}
 body {overflow-x: hidden;}
 
-#wrap {width: 1920px}
-#main {height: 1024px; background: url("../images/background.jpg"); position: relative; z-index: 900}
-#portfolio {height: 4190px; position: relative; z-index: 100}
+#wrap {width: 1920px; background-color: #ebfdfd}
+#main {height: 1024px; background: url("../images/background2.jpg"); position: relative; z-index: 900}
+#portfolio {height: 4190px; position: relative; z-index: 100; background-color: #fff}
 
 /*헤더 자바스크립트로 숨기는 동작*/
 #main>.nav-up {top: -56px;}
 
 
-/*메인 타이포와 스크롤다운*/
+/*메인 타이포*/
 #main>.title {
   position: relative;
   top:660px;
@@ -20,7 +20,7 @@ body {overflow-x: hidden;}
 /*스크롤다운 버튼*/
 #main>.viewproject {
   position: relative;
-  top: 420px;
+  top: 65px;
   left:1820px;
   z-index:201;
 }
@@ -36,6 +36,8 @@ body {overflow-x: hidden;}
 }
 
 #main>.viewproject>.mouse {
+  margin-top: 20px;
+  margin-left: 3px;
   animation: scroll 2s infinite;
 }
 @keyframes scroll {
@@ -50,7 +52,7 @@ body {overflow-x: hidden;}
 #portfolio>.mobile>a {display: block; width: 535px; height: 396px}
 
 /*퍼스널 사이트 섬네일*/
-#portfolio>.personal {position: relative; top:60px; left:600px; display: inline-block; width: 605px; height: 641px; z-index: 102}
+#portfolio>.personal {position: relative; top:40px; left:600px; display: inline-block; width: 605px; height: 641px; z-index: 102}
 #portfolio>.personal>a {display: block; width: 605px; height: 641px}
 
 /*웹 프로젝트 섬네일*/
@@ -87,9 +89,9 @@ body {overflow-x: hidden;}
 #portfolio>.graphic>a {display: block; width: 692px; height: 775px}
 
 /*컨택트 섬네일*/
-#portfolio>.contactme {position: relative; top:1000px; left:367px; display: inline-block; width: 471px; height: 390px; z-index: 112}
-#portfolio>.contactme>a {display: block; width: 471px; height: 390px}
+#portfolio>.contactme {position: relative; top:1000px; left:367px; display: inline-block; width: 471px; height: 391px; z-index: 112}
+#portfolio>.contactme>a {display: block; width: 471px; height: 391px}
 
 /*푸터 / 카피라이트*/
-#footer {clear: both; width: 1920px; height: 50px;}
+#footer {clear: both; width: 1920px; height: 50px; background-color: #fff}
 #footer>.copyright {padding-left: 820px}

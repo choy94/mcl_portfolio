@@ -28,7 +28,7 @@ body {overflow-x: hidden;}
 #main>.scrolldown {
   position: relative;
   top:240px;
-  left:950px;
+  left:945px;
   z-index:201;
 }
 #main>.scrolldown>.mouse {
@@ -53,8 +53,18 @@ body {overflow-x: hidden;}
 /*누구도 우연히 오지 않는다*/
 #body>.body01 {
   width: 100%;
-  height: 700px;
+  height: 565px;
+  margin-top: 150px;
   background: url("../images/about/about_02.jpg");
+}
+
+#body>.body01>.sns {
+  width: 41px;
+  margin: 80px 0 0 1638px;
+}
+
+#body>.body01>.sns a .insta {
+  margin:6px 0 8px 0;
 }
 
 /*키워드*/
@@ -63,74 +73,110 @@ body {overflow-x: hidden;}
   height: 280px;
   background: url("../images/about/about_03.jpg");
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom:80px;
 }
 
 /*복선 01*/
 #body>.body03 {
   width: 100%;
-  height: 825px;
+  height: 667px;
+  margin-top: 100px;
   background: url("../images/about/about_04.jpg");
 }
 
 /*복선 02*/
-#body>.body03 {
+#body>.body04 {
   width: 100%;
-  height: 595px;
+  height: 598px;
+  margin-top: 150px;
   background: url("../images/about/about_05.jpg");
 }
 
 /*복선 03*/
-#body>.body04 {
+#body>.body05 {
   width: 100%;
-  height: 990px;
+  height: 656px;
+  margin-top: 150px;
   background: url("../images/about/about_06.jpg");
 }
 
 /*복선 04*/
-#body>.body05 {
+#body>.body06 {
   width: 100%;
-  height: 830px;
+  height: 823px;
+  margin-top: 150px;
   background: url("../images/about/about_07.jpg");
 }
 
+#body>.body06>ul {
+  width: 1440px;
+  height: 480px;
+  padding: 342px 0 0 239px;
+}
+
+#body>.body06>ul a img {
+  margin-right: -4px;
+}
+
 /*복선 05*/
-#body>.body06 {
+#body>.body07 {
   width: 100%;
-  height: 984px;
+  height: 978px;
   background: url("../images/about/about_08.jpg");
 }
 
 /*복선 회수*/
-#body>.body07 {
+#body>.body08 {
   width: 100%;
-  height: 1024px;
+  height: 1021px;
   background: url("../images/about/about_09.jpg");
 }
 
 /*목표*/
-#body>.body08 {
+#body>.body09 {
   width: 100%;
-  height: 1024px;
+  height: 1023px;
   background: url("../images/about/about_10.jpg");
 }
 
 /*플레이리스트*/
-#body>.body09 {
+#body>.body10 {
   width: 100%;
   height: 1130px;
   background: url("../images/about/about_11.jpg");
 }
 
 /*명언*/
-#body>.body10 {
+#body>.body11 {
   width: 100%;
   height: 470px;
-  background: url("../images/about/about_12.jpg");
+  background: url("../images/about/banner_background.jpg");
 }
 
+#banner {width:100%;height:470px;position:relative;overflow:hidden}
+
+#banner .img{position:relative}
+#banner .img li{position:absolute;width:100%;height:470px;display:none}
+#banner .img li:first-child{display:block}
+
+#banner .img li .d_container{position:relative;width:1000px;margin:0 auto}
+#banner .img li.l1 .motion{position:absolute;left:70px;top:220px}/*margin 사용금지*/
+#banner .img li.l2 .motion{position:absolute;left:70px;top:210px}/*margin 사용금지*/
+#banner .img li.l3 .motion{position:absolute;left:70px;top:210px}/*margin 사용금지*/
+#banner .img li.l4 .motion{position:absolute;left:70px;top:210px}/*margin 사용금지*/
+#banner .img li.l5 .motion{position:absolute;left:70px;top:220px}
+
+
+#banner .btn{position:absolute;width:100%;bottom:30px; left:0px; text-align:center}
+#banner .btn li{cursor:pointer;margin:0 3px;display:inline-block;width:8px;height:8px;border-radius:50%;background:#f5f5f5}
+#banner .btn li.on{background:#bc94ff}
+
+#banner .arrow{position:absolute;top:230px;cursor:pointer;z-index:10}
+#banner .prev{left:50%;margin-left:-720px;}
+#banner .next{left:50%;margin-left:650px}
+
 /*카톡*/
-#body>.body11 {
+#body>.body12 {
   width: 100%;
   height: 1240px;
   background: url("../images/about/about_13.jpg");

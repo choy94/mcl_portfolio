@@ -2,7 +2,9 @@
 body {overflow-x: hidden;}
 
 #wrap {
-  width: 1920px
+  width:1920px;
+  height:13569px;
+  overflow:hidden;
 }
 #main {
   height: 942px;
@@ -27,7 +29,7 @@ body {overflow-x: hidden;}
 #main>.scrolldown {
   position: relative;
   top:240px;
-  left:950px;
+  left:945px;
   z-index:201;
 }
 #main>.scrolldown>.mouse {
@@ -57,84 +59,88 @@ body {overflow-x: hidden;}
 /*와디즈 티버터*/
 #body>.body03 {
   width: 100%;
-  height: 620px;
+  height: 614px;
   background: url("../images/experience/ex_03.jpg");
 }
 
 /*티버터 성과*/
 #body>.body04 {
   width: 100%;
-  height: 300px;
+  height: 296px;
   background: url("../images/experience/ex_04.jpg");
 }
 
 /*와디즈 티샷*/
 #body>.body05 {
   width: 100%;
-  height: 615px;
+  height: 614px;
   background: url("../images/experience/ex_05.jpg");
 }
 
 /*티샷 성과*/
 #body>.body06 {
   width: 100%;
-  height: 300px;
+  height: 299px;
   background: url("../images/experience/ex_06.jpg");
 }
 
 /*네이버 스마트스토어*/
 #body>.body07 {
   width: 100%;
-  height: 940px;
+  height: 939px;
   background: url("../images/experience/ex_07.jpg");
 }
 
 /*구인 포스터 외주*/
 #body>.body08 {
   width: 100%;
-  height: 800px;
+  height: 627px;
+  margin-top: 150px;
   background: url("../images/experience/ex_08.jpg");
 }
 
 /*아이스티크림 포스터*/
 #body>.body09 {
   width: 100%;
-  height: 580px;
+  height: 540px;
+  margin-top: 100px;
   background: url("../images/experience/ex_09.jpg");
 }
 
 /*신제품 프로모션 포스터*/
 #body>.body10 {
   width: 100%;
-  height: 720px;
+  height: 562px;
+  margin-top: 80px;
   background: url("../images/experience/ex_10.jpg");
 }
 
 /*오키나와 친구에게 패키지*/
 #body>.body11 {
   width: 100%;
-  height: 1020px;
+  height: 1016px;
+  margin-top: 150px;
   background: url("../images/experience/ex_11.jpg");
 }
 
 /*오리지널 양과자 패키지*/
 #body>.body12 {
   width: 100%;
-  height: 800px;
+  height: 794px;
   background: url("../images/experience/ex_12.jpg");
 }
 
 /*셀럽 인증샷*/
 #body>.body13 {
   width: 100%;
-  height: 340px;
+  height: 335px;
   background: url("../images/experience/ex_13.jpg");
 }
 
 /*크리스마스 양과자 패키지*/
 #body>.body14 {
   width: 100%;
-  height: 795px;
+  height: 794px;
   background: url("../images/experience/ex_14.jpg");
 }
 
@@ -149,14 +155,28 @@ body {overflow-x: hidden;}
 #body>.body16 {
   width: 100%;
   height: 800px;
+  margin-top: 20px;
   background: url("../images/experience/ex_16.jpg");
 }
 
 /*매뉴얼*/
 #body>.body17 {
   width: 100%;
-  height: 740px;
-  background: url("../images/experience/ex_17.jpg");
+  height: 573px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  background: url("../images/experience/ex_17_back.jpg");
+}
+
+#body>.body17>.manual {
+  width: 1480px;
+  height: 838px;
+  padding: 150px 0 0 240px;
+}
+
+#body>.body17>.manual img {
+  display: inline-block;
+  margin-right: 16px;
 }
 
 /*푸터*/
